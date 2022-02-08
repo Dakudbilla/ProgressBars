@@ -1,10 +1,9 @@
 window.onload = () => {
-  const progressBars = document.querySelectorAll("progress-bar");
-  const progressPercent = document.querySelectorAll("percentage_val");
-  const finishButton = document.querySelector("finish-btn");
+  const progressBars = document.querySelectorAll(".progress-bar");
+  const progressPercent = document.querySelectorAll(".percentage_val");
+  const finishButton = document.querySelector("#finish-btn");
 
   finishButton.addEventListener("click", function () {
-    console.log("hello");
     progressBars.forEach((bar) => {
       bar.style.width = "100%";
     });
