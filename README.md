@@ -2,7 +2,8 @@
 Built with :
 - **HTML** 
 - **CSS**
-Access [Live site Here](https://dakudbilla.github.io/shortPointAssessment/)
+
+Access [**Live site Here**](https://dakudbilla.github.io/shortPointAssessment/)
 
 # How to Run Application
 - Download files as zip or clone project into your directory
