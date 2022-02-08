@@ -112,3 +112,9 @@ body {
 .white {
   background-color: var(--white);
 }
+
+.btn {
+  padding: 5px;
+  background-color: var(--blue);
+  color: var(--white);
+}
