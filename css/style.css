@@ -17,3 +17,98 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.container {
+  margin-top: 10em;
+  padding: 0 5em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.progress-wrap {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 20px;
+  margin-bottom: 35px;
+}
+
+.progress-bar {
+  width: 60%;
+  border-radius: 20px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 1px 1px 4px #888888;
+  background: repeating-linear-gradient(-55deg, #222);
+}
+
+.percentage_val {
+  margin-right: 10px;
+  font-weight: 800;
+  color: #2e2e2d;
+}
+
+.green {
+  background-color: var(--green);
+  background-image: linear-gradient(
+    144deg,
+    #73f088 27.78%,
+    #96db69 27.78%,
+    #96db69 50%,
+    #73f088 50%,
+    #73f088 77.78%,
+    #96db69 77.78%,
+    #96db69 100%
+  );
+  background-size: 15.31px 11.12px;
+}
+
+.blue {
+  background-color: var(--blue);
+  background-image: linear-gradient(
+    144deg,
+    #a8e0de 27.78%,
+    #a2c6db 27.78%,
+    #a2c6db 50%,
+    #a8e0de 50%,
+    #a8e0de 77.78%,
+    #a2c6db 77.78%,
+    #a2c6db 100%
+  );
+  background-size: 15.31px 11.12px;
+}
+.red {
+  background-color: var(--red);
+  background-image: linear-gradient(
+    144deg,
+    #f08873 27.78%,
+    #db7c69 27.78%,
+    #db7c69 50%,
+    #f08873 50%,
+    #f08873 77.78%,
+    #db7c69 77.78%,
+    #db7c69 100%
+  );
+  background-size: 15.31px 11.12px;
+}
+.orange {
+  background-color: var(--orange);
+  background-image: linear-gradient(
+    144deg,
+    #e8c579 27.78%,
+    #e6b161 27.78%,
+    #e6b161 50%,
+    #e8c579 50%,
+    #e8c579 77.78%,
+    #e6b161 77.78%,
+    #e6b161 100%
+  );
+  background-size: 15.31px 11.12px;
+}
+.white {
+  background-color: var(--white);
+}
