@@ -3,7 +3,7 @@ window.onload = () => {
   const progressPercent = document.querySelectorAll("percentage_val");
   const finishButton = document.querySelector("finish-btn");
 
-  finishButton.addEventListener("click", () => {
+  finishButton.addEventListener("click", function () {
     console.log("hello");
     progressBars.forEach((bar) => {
       bar.style.width = "100%";
