@@ -1,4 +1,4 @@
-# ShortPointAssessment
+# Progress Bars
 Built with :
 - **HTML** 
 - **CSS**
